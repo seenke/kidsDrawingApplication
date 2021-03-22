@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanvasFragment"
+    android:id="@+id/canvasFragment"
+    >
+
+    <si.uni_lj.fri.pbd.drawingapplication.CustomView
+        android:id="@+id/canvasView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@drawable/background_drawing_view_layout"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="10dp"
+        />
+
+
+</FrameLayout>

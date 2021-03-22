@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DrawingApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="canvas">Canvas</string>
+    <string name="palette">Palette</string>
+    <string name="brush">Brush</string>
+    <string name="undo">Undo</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="select_brush_size">SELECT BRUSH SIZE</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+</resources>

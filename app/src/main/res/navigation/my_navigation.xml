@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/canvasFragment">
+
+    <fragment
+        android:id="@+id/canvasFragment"
+        android:name="si.uni_lj.fri.pbd.drawingapplication.CanvasFragment"
+        android:label="fragment_canvas"
+        tools:layout="@layout/fragment_canvas" >
+        <action
+            android:id="@+id/action_canvasFragment_to_colorPickerFragment"
+            app:destination="@id/colorPickerFragment" />
+        <action
+            android:id="@+id/action_canvasFragment_to_brushPickerFragment"
+            app:destination="@id/brushPickerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/colorPickerFragment"
+        android:name="si.uni_lj.fri.pbd.drawingapplication.ColorPickerFragment"
+        android:label="fragment_color_picker"
+        tools:layout="@layout/fragment_color_picker" />
+    <fragment
+        android:id="@+id/brushPickerFragment"
+        android:name="si.uni_lj.fri.pbd.drawingapplication.brushPickerFragment"
+        android:label="fragment_brush_picker"
+        tools:layout="@layout/fragment_brush_picker" />
+</navigation>
